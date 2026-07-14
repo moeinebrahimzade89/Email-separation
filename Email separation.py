@@ -1,4 +1,4 @@
-from listemail.py import Domain, English_Name
+from listemail import Domain, English_Name
 
 email_details = []
 
@@ -18,13 +18,3 @@ else:
     # If the entry does not have an @, it is not an email.
     print("Your email is incorrect.")
     
-    
-    
-    
-    
-""" 
-print(email_type)
-    print(f"Username:{email[:position]}")
-    print(f"Domain:{email[position +1 :]}")
-    print(email_details)
-"""
